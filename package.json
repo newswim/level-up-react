@@ -1,0 +1,20 @@
+{
+  "name": "react-for-newswim",
+  "version": "1.0.0",
+  "description": "Learnin' React!",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm lmao"
+  },
+  "author": "Dan Minshew",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^5.8.*",
+    "babel-loader": "^5.3.*",
+    "webpack": "^1.12.*",
+    "webpack-dev-server": "^1.10.*"
+  },
+  "dependencies": {
+    "react": "^0.13.*"
+  }
+}
