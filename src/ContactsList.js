@@ -21,7 +21,8 @@ class ContactsList extends React.Component {
         // then do not return that contact
         // FIXME: doesn't seem to be returning any objects to
         // the map function below
-        return contact.name.indexOf(this.state.searcb) !== -1
+        // FIXED: 'searcb' != 'search'
+        return contact.name.indexOf(this.state.search) !== -1
       }
     )
     return (
